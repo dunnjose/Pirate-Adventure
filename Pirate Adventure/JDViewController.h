@@ -7,6 +7,8 @@
 //
 
 #import <UIKit/UIKit.h>
+#import "JDCharacter.h"
+#import "JDBoss.h"
 
 @interface JDViewController : UIViewController
 
@@ -14,6 +16,8 @@
 @property (strong, nonatomic) IBOutlet UIImageView *backGroundImageView;
 @property (nonatomic) CGPoint currentPoint;
 @property (strong, nonatomic) NSArray *tiles;
+@property (strong, nonatomic) JDCharacter *character;
+@property (strong, nonatomic) JDBoss *boss;
 
 //Outlets
 @property (strong, nonatomic) IBOutlet UILabel *healthLabel;
@@ -34,6 +38,7 @@
 - (IBAction)westButtonPressed:(UIButton *)sender;
 - (IBAction)southButtonPressed:(UIButton *)sender;
 - (IBAction)eastButtonPressed:(UIButton *)sender;
+- (IBAction)resetButtonPressed:(UIButton *)sender;
 
 
 @end

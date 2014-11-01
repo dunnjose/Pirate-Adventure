@@ -20,7 +20,7 @@
                                 <rect key="frame" x="0.0" y="0.0" width="320" height="568"/>
                                 <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                             </imageView>
-                            <view appearanceType="aqua" alpha="0.59999999999999998" contentMode="scaleToFill" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="ISo-Zl-rNY">
+                            <view appearanceType="aqua" alpha="0.80000000000000016" contentMode="scaleToFill" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="ISo-Zl-rNY">
                                 <rect key="frame" x="29" y="47" width="263" height="140"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <subviews>
@@ -82,7 +82,7 @@
                                 </subviews>
                                 <color key="backgroundColor" red="1" green="0.85282951774801696" blue="0.33923113799293081" alpha="1" colorSpace="calibratedRGB"/>
                             </view>
-                            <view appearanceType="aqua" alpha="0.59999999999999998" contentMode="scaleToFill" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="18n-bT-Vmc">
+                            <view appearanceType="aqua" alpha="0.80000000000000016" contentMode="scaleToFill" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="18n-bT-Vmc">
                                 <rect key="frame" x="31" y="195" width="258" height="100"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <subviews>
@@ -107,7 +107,7 @@
                                 </subviews>
                                 <color key="backgroundColor" red="1" green="0.36173282757898162" blue="0.48027434473896191" alpha="1" colorSpace="calibratedRGB"/>
                             </view>
-                            <view appearanceType="aqua" alpha="0.59999999999999998" contentMode="scaleToFill" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="I0s-RU-Gra">
+                            <view appearanceType="aqua" alpha="0.80000000000000016" contentMode="scaleToFill" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="I0s-RU-Gra">
                                 <rect key="frame" x="31" y="306" width="258" height="172"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <subviews>
@@ -176,6 +176,18 @@
                                 </state>
                                 <connections>
                                     <action selector="southButtonPressed:" destination="vXZ-lx-hvc" eventType="touchUpInside" id="taB-EI-dvz"/>
+                                </connections>
+                            </button>
+                            <button appearanceType="aqua" opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="d8J-2T-hJ9">
+                                <rect key="frame" x="31" y="518" width="61" height="30"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <color key="backgroundColor" red="1" green="0.1626557813635312" blue="0.070807604147326675" alpha="1" colorSpace="calibratedRGB"/>
+                                <state key="normal" title="Reset">
+                                    <color key="titleColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                                    <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
+                                </state>
+                                <connections>
+                                    <action selector="resetButtonPressed:" destination="vXZ-lx-hvc" eventType="touchUpInside" id="2I5-Sv-tGe"/>
                                 </connections>
                             </button>
                         </subviews>

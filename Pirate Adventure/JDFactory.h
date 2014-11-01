@@ -7,10 +7,14 @@
 //
 
 #import <Foundation/Foundation.h>
+#import "JDCharacter.h"
+#import "JDBoss.h"
 
 @interface JDFactory : NSObject
 
 -(NSArray *)tiles;
+-(JDCharacter *)character;
+-(JDBoss *)boss;
 
 
 @end

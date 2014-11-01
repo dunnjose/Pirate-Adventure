@@ -7,12 +7,18 @@
 //
 
 #import <Foundation/Foundation.h>
+#import "JDWeapon.h"
+#import "JDArmor.h"
 
 @interface JDTile : NSObject
 
 @property (strong, nonatomic) NSString *story;
 @property (strong, nonatomic) UIImage *backgroundImage;
 @property (strong, nonatomic) NSString *actionButtonName;
+@property (strong, nonatomic) JDWeapon *weapon;
+@property (strong, nonatomic) JDArmor *armor;
+@property (nonatomic) int healthEffect;
+
 
 
 

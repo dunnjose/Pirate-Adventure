@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		1B4DA5DE19F52FAD0048DA2F /* Photo on 10-20-14 at 7.52 AM.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 1B4DA5DD19F52FAD0048DA2F /* Photo on 10-20-14 at 7.52 AM.jpg */; };
 		1B5424CA19F31C0D001A0976 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 1B5424C919F31C0D001A0976 /* Foundation.framework */; };
 		1B5424CC19F31C0D001A0976 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 1B5424CB19F31C0D001A0976 /* CoreGraphics.framework */; };
 		1B5424CE19F31C0D001A0976 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 1B5424CD19F31C0D001A0976 /* UIKit.framework */; };
@@ -23,6 +24,10 @@
 		1B5424F519F31C0E001A0976 /* Pirate_AdventureTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 1B5424F419F31C0E001A0976 /* Pirate_AdventureTests.m */; };
 		1B54250119F325DB001A0976 /* JDTile.m in Sources */ = {isa = PBXBuildFile; fileRef = 1B54250019F325DB001A0976 /* JDTile.m */; };
 		1B54250419F3269F001A0976 /* JDFactory.m in Sources */ = {isa = PBXBuildFile; fileRef = 1B54250319F3269F001A0976 /* JDFactory.m */; };
+		1B830A7A19F9B4FF006C92B7 /* JDWeapon.m in Sources */ = {isa = PBXBuildFile; fileRef = 1B830A7919F9B4FF006C92B7 /* JDWeapon.m */; };
+		1B830A7D19F9B569006C92B7 /* JDArmor.m in Sources */ = {isa = PBXBuildFile; fileRef = 1B830A7C19F9B569006C92B7 /* JDArmor.m */; };
+		1B830A8019F9B627006C92B7 /* JDCharacter.m in Sources */ = {isa = PBXBuildFile; fileRef = 1B830A7F19F9B627006C92B7 /* JDCharacter.m */; };
+		1BBAC57319FD3D2000C1CB59 /* JDBoss.m in Sources */ = {isa = PBXBuildFile; fileRef = 1BBAC57219FD3D2000C1CB59 /* JDBoss.m */; };
 		1BF6DA7F19F330B2001791E6 /* PirateAttack.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 1BF6DA7319F330B2001791E6 /* PirateAttack.jpg */; };
 		1BF6DA8019F330B2001791E6 /* PirateBlacksmith.jpeg in Resources */ = {isa = PBXBuildFile; fileRef = 1BF6DA7419F330B2001791E6 /* PirateBlacksmith.jpeg */; };
 		1BF6DA8119F330B2001791E6 /* PirateBoss.jpeg in Resources */ = {isa = PBXBuildFile; fileRef = 1BF6DA7519F330B2001791E6 /* PirateBoss.jpeg */; };
@@ -48,6 +53,7 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		1B4DA5DD19F52FAD0048DA2F /* Photo on 10-20-14 at 7.52 AM.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "Photo on 10-20-14 at 7.52 AM.jpg"; sourceTree = "<group>"; };
 		1B5424C619F31C0D001A0976 /* Pirate Adventure.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Pirate Adventure.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		1B5424C919F31C0D001A0976 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
 		1B5424CB19F31C0D001A0976 /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
@@ -71,6 +77,14 @@
 		1B54250019F325DB001A0976 /* JDTile.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = JDTile.m; sourceTree = "<group>"; };
 		1B54250219F3269F001A0976 /* JDFactory.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = JDFactory.h; sourceTree = "<group>"; };
 		1B54250319F3269F001A0976 /* JDFactory.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = JDFactory.m; sourceTree = "<group>"; };
+		1B830A7819F9B4FF006C92B7 /* JDWeapon.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = JDWeapon.h; sourceTree = "<group>"; };
+		1B830A7919F9B4FF006C92B7 /* JDWeapon.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = JDWeapon.m; sourceTree = "<group>"; };
+		1B830A7B19F9B569006C92B7 /* JDArmor.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = JDArmor.h; sourceTree = "<group>"; };
+		1B830A7C19F9B569006C92B7 /* JDArmor.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = JDArmor.m; sourceTree = "<group>"; };
+		1B830A7E19F9B627006C92B7 /* JDCharacter.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = JDCharacter.h; sourceTree = "<group>"; };
+		1B830A7F19F9B627006C92B7 /* JDCharacter.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = JDCharacter.m; sourceTree = "<group>"; };
+		1BBAC57119FD3D2000C1CB59 /* JDBoss.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = JDBoss.h; sourceTree = "<group>"; };
+		1BBAC57219FD3D2000C1CB59 /* JDBoss.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = JDBoss.m; sourceTree = "<group>"; };
 		1BF6DA7319F330B2001791E6 /* PirateAttack.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = PirateAttack.jpg; sourceTree = "<group>"; };
 		1BF6DA7419F330B2001791E6 /* PirateBlacksmith.jpeg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = PirateBlacksmith.jpeg; sourceTree = "<group>"; };
 		1BF6DA7519F330B2001791E6 /* PirateBoss.jpeg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = PirateBoss.jpeg; sourceTree = "<group>"; };
@@ -157,6 +171,7 @@
 		1B5424D019F31C0D001A0976 /* Supporting Files */ = {
 			isa = PBXGroup;
 			children = (
+				1B4DA5DD19F52FAD0048DA2F /* Photo on 10-20-14 at 7.52 AM.jpg */,
 				1BF6DA7219F3307E001791E6 /* images */,
 				1B5424D119F31C0D001A0976 /* Pirate Adventure-Info.plist */,
 				1B5424D219F31C0D001A0976 /* InfoPlist.strings */,
@@ -187,9 +202,17 @@
 		1B5424FE19F325A9001A0976 /* Model */ = {
 			isa = PBXGroup;
 			children = (
-				1B54250519F326B0001A0976 /* Factory */,
 				1B5424FF19F325DB001A0976 /* JDTile.h */,
 				1B54250019F325DB001A0976 /* JDTile.m */,
+				1B830A7819F9B4FF006C92B7 /* JDWeapon.h */,
+				1B830A7919F9B4FF006C92B7 /* JDWeapon.m */,
+				1B830A7B19F9B569006C92B7 /* JDArmor.h */,
+				1B830A7C19F9B569006C92B7 /* JDArmor.m */,
+				1B830A7E19F9B627006C92B7 /* JDCharacter.h */,
+				1B830A7F19F9B627006C92B7 /* JDCharacter.m */,
+				1BBAC57119FD3D2000C1CB59 /* JDBoss.h */,
+				1BBAC57219FD3D2000C1CB59 /* JDBoss.m */,
+				1B54250519F326B0001A0976 /* Factory */,
 			);
 			name = Model;
 			sourceTree = "<group>";
@@ -313,6 +336,7 @@
 				1BF6DA8019F330B2001791E6 /* PirateBlacksmith.jpeg in Resources */,
 				1BF6DA8719F330B2001791E6 /* PirateStart.jpg in Resources */,
 				1BF6DA8119F330B2001791E6 /* PirateBoss.jpeg in Resources */,
+				1B4DA5DE19F52FAD0048DA2F /* Photo on 10-20-14 at 7.52 AM.jpg in Resources */,
 				1BF6DA8419F330B2001791E6 /* PirateParrot.jpg in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -335,8 +359,12 @@
 				1B54250119F325DB001A0976 /* JDTile.m in Sources */,
 				1B5424DA19F31C0D001A0976 /* JDAppDelegate.m in Sources */,
 				1B54250419F3269F001A0976 /* JDFactory.m in Sources */,
+				1B830A8019F9B627006C92B7 /* JDCharacter.m in Sources */,
+				1B830A7A19F9B4FF006C92B7 /* JDWeapon.m in Sources */,
 				1B5424E019F31C0D001A0976 /* JDViewController.m in Sources */,
+				1B830A7D19F9B569006C92B7 /* JDArmor.m in Sources */,
 				1B5424D619F31C0D001A0976 /* main.m in Sources */,
+				1BBAC57319FD3D2000C1CB59 /* JDBoss.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
